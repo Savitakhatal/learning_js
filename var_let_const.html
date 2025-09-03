@@ -16,6 +16,34 @@
         // let example
         var let="priti";
 
+
+      
+    </script>
+    <script>
+        //global scope
+          var x = 101;
+        let y =102;
+        const z  = 103;
+        document.write("<br>")
+        function scopeExample(){
+        var x =1;// function scope
+        let y =2;//block scope
+        const z  =3;//block
+        if(true)//inside this block
+        }
+        {
+            var x =10;
+            let y = 20;
+            const z =30;
+            document.write("<br>");
+        }
+        //outsite the block but inside the function
+        document.write(x);
+        document.write(y);
+        document.write(z);
+         document.write("<br>");
+
+
     </script>
 </body>
 </html>
